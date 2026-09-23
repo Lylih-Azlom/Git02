@@ -5,5 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		Hello h = new Hello();
 		h.say();
+		
+		System.out.printf("내 생일: %d월 %d일", 5, 23);
 	}
 }
